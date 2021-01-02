@@ -16,8 +16,8 @@ $(function(){
         slidesToShow: 1,
         slidesToScroll: 1,
         asNavFor: '.heroes__slider-text',
-        prevArrow: false,
-        nextArrow: false,
+        prevArrow: '<button  class="slick-btn slick-prev"><img src="/images/arrow-left.png" alt="arrowL"></button>',
+        nextArrow: '<button  class="slick-btn slick-next"><img src="/images/arrow-right.png" alt="arrowR"></button>',
         responsive: [
             {
                 breakpoint: 769,
